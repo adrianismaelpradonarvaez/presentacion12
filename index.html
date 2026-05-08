@@ -2,15 +2,33 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title> ING. PRADO </title>
-    <!-- SIN CSS NI JAVASCRIPT - SOLO HTML PURO CON ATRIBUTOS CLÁSICOS -->
+    <title>🕷️ ING. PRADO | SPIDER-PORTFOLIO</title>
+    <!-- SIN CSS NI JAVASCRIPT - SOLO HTML PURO CON ATRIBUTOS CLÁSICOS Y ANCLAJES -->
 </head>
 <body bgcolor="#1A0B2E" text="#E0E0E0" link="#FF3333" vlink="#CC0000" alink="#FF9933">
-    <!-- fondo morado-oscuro estilo noche, texto gris claro, enlaces rojos intensos -->
+    <!-- fondo morado-oscuro noche, texto gris, enlaces rojos intensos -->
 
-    <!-- BOTÓN PARA SUBIR RÁPIDO (anclaje + imagen simbólica) -->
+    <!-- ================= ANCLAJES PRINCIPALES ================= -->
     <a name="inicio"></a>
-    <div align="right" style="position: fixed; bottom: 20px; right: 20px; z-index: 100;">
+    <a name="fin"></a>
+
+    <!-- ================= NAVEGACIÓN FIJA (ARRIBA SIEMPRE) ================= -->
+    <div align="center" style="position: fixed; top: 10px; left: 0; width: 100%; z-index: 200; background-color: #0F051Faa; backdrop-filter: none; padding: 8px 0;">
+        <table bgcolor="#2D1B3C" border="2" bordercolor="#C41E3A" cellpadding="6" cellspacing="0" style="margin:0 auto;">
+            <tr>
+                <td bgcolor="#B22234" align="center"><a href="#inicio"><font face="Arial Black" size="2" color="#FFD966">🏠 INICIO</font></a></td>
+                <td bgcolor="#B22234" align="center"><a href="#datos"><font face="Arial Black" size="2" color="#FFD966">📋 DATOS PERSONALES</font></a></td>
+                <td bgcolor="#B22234" align="center"><a href="#comida"><font face="Arial Black" size="2" color="#FFD966">🍕 COMIDA FAV.</font></a></td>
+                <td bgcolor="#B22234" align="center"><a href="#intereses"><font face="Arial Black" size="2" color="#FFD966">🕷️ INTERESES</font></a></td>
+                <td bgcolor="#B22234" align="center"><a href="#cancion"><font face="Arial Black" size="2" color="#FFD966">🎵 CANCIÓN</font></a></td>
+                <td bgcolor="#B22234" align="center"><a href="#juego"><font face="Arial Black" size="2" color="#FFD966">🎮 JUEGO</font></a></td>
+                <td bgcolor="#B22234" align="center"><a href="#fin"><font face="Arial Black" size="2" color="#FFD966">⬇️ FINAL</font></a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ================= BOTÓN PARA SUBIR RÁPIDO (IMAGEN FLOTANTE DERECHA) ================= -->
+    <div align="right" style="position: fixed; bottom: 30px; right: 25px; z-index: 100;">
         <a href="#inicio">
             <img src="https://i.pinimg.com/474x/99/ad/2c/99ad2c2b8272b572c548d74b115c7ce7.jpg" 
                  alt="🕸️ Subir Rápido" width="55" height="55" border="2" style="border-color:#FFD700; border-radius:50%; background:#000000aa;">
@@ -18,10 +36,21 @@
         <br><font size="1" color="#FFD700"><b>⚡ SUBIR</b></font>
     </div>
 
-    <center>
+    <!-- ================= BOTÓN PARA BAJAR RÁPIDO (IMAGEN FLOTANTE IZQUIERDA GIRADA) ================= -->
+    <div align="right" style="position: fixed; bottom: 30px; left: 25px; z-index: 100;">
+        <a href="#fin">
+            <img src="https://i.pinimg.com/474x/99/ad/2c/99ad2c2b8272b572c548d74b115c7ce7.jpg" 
+                 alt="🕸️ Bajar Rápido" width="55" height="55" border="2" style="border-color:#FFD700; border-radius:50%; background:#000000aa; transform: rotate(180deg);">
+        </a>
+        <br><font size="1" color="#FFD700"><b>⚡ BAJAR</b></font>
+    </div>
 
-        <!-- TITULO PRINCIPAL CON MARCO ARAÑA / ESTILO SPIDER-VERSE -->
-        <table border="3" width="550" bgcolor="#2D1B3C" bordercolor="#C41E3A" cellpadding="14" cellspacing="3">
+    <center>
+        <!-- ESPACIADO PARA QUE EL CONTENIDO NO QUEDE TAPADO POR LA NAV -->
+        <br><br><br><br>
+
+        <!-- TITULO PRINCIPAL CON MARCO ARAÑA -->
+        <table border="3" width="580" bgcolor="#2D1B3C" bordercolor="#C41E3A" cellpadding="14" cellspacing="3">
             <tr>
                 <th>
                     <font size="7" face="Impact, Arial Black" color="#FFD966">🕷️ ING. ADRIAN PRADO 🕸️</font><br>
@@ -37,7 +66,7 @@
         </table>
         <br>
 
-       <!-- CARRUSEL DE MIS FOTOS (con marquee clásico + marco araña) -->
+       <!-- CARRUSEL DE MIS FOTOS (marquee clásico) -->
        <table width="600" bgcolor="#221C35" border="2" bordercolor="#DC143C" cellpadding="12">
     <tr>
         <td align="center">
@@ -46,59 +75,67 @@
             </font><br>
 
             <marquee behavior="scroll" direction="left" scrollamount="6" width="520" height="260" bgcolor="#1F112C" loop="infinite">
-                <!-- imágenes con borde estilo cómic rojo/azul -->
-                <img src="FOTO1.jpeg" width="170" height="170" hspace="20" style="border:4px solid #E6242E; box-shadow: 0 0 0 3px #F5E56B;">
-                <img src="FOTO2.jpeg" width="170" height="170" hspace="20" style="border:4px solid #E6242E; box-shadow: 0 0 0 3px #F5E56B;">
-                <img src="FOTO3.jpeg" width="170" height="170" hspace="20" style="border:4px solid #E6242E; box-shadow: 0 0 0 3px #F5E56B;">
+                <!-- imágenes de ejemplo con estilo araña, reemplazar por tus imágenes reales -->
+                <img src="https://i.pinimg.com/736x/04/5d/46/045d46006b6f0f0132a84695bcd0571c.jpg" width="170" height="170" hspace="20" style="border:4px solid #E6242E; box-shadow: 0 0 0 3px #F5E56B;">
+                <img src="https://i.pinimg.com/474x/99/ad/2c/99ad2c2b8272b572c548d74b115c7ce7.jpg" width="170" height="170" hspace="20" style="border:4px solid #E6242E; box-shadow: 0 0 0 3px #F5E56B;">
+                <img src="https://cdn2.unrealengine.com/fortnite-battle-royale-galactic-battle-header-1900x600-48fa493a66dc.jpg" width="170" height="170" hspace="20" style="border:4px solid #E6242E; box-shadow: 0 0 0 3px #F5E56B;">
             </marquee>
 
             <br>
             <i><font color="#FFB347">🕷️➡️ "Con grandes fotos vienen grandes recuerdos" ⬅️🕸️</font></i>
-         </td>
-      </tr>
+          </td>
+        </tr>
     </table>
         <br>
 
-        <!-- LINEA DECORATIVA DOBLE (telaraña visual) -->
+        <!-- LINEA DECORATIVA DOBLE -->
         <hr width="550" color="#B22234" size="3">
         <hr width="450" color="#DAA520" size="1">
         <br>
 
-        <!-- DATOS PERSONALES - TABLA SPIDER TEMÁTICA -->
+        <!-- ================= SECCIÓN DATOS PERSONALES (anclaje) ================= -->
+        <a name="datos"></a>
         <h2><font face="Impact" color="#FFC857">📋 SPIDER-DATOS PERSONALES 🕷️</font></h2>
-        <table border="2" width="500" bgcolor="#291D3A" bordercolor="#E6242E" cellpadding="8" cellspacing="2">
+        <table border="2" width="540" bgcolor="#291D3A" bordercolor="#E6242E" cellpadding="8" cellspacing="2">
             <tr bgcolor="#4A2A5C">
                 <th width="40%"><font face="Arial" color="#FFD966"><b>Campo</b></font></th>
                 <th><font face="Arial" color="#FFD966"><b>Información Arácnida</b></font></th>
-             </tr>
-            <tr bgcolor="#352641"><td><b>🕸️ Nombre completo:</b></td><td>ADRIAN ISMAEL PRADO NARVAEZ</font></td></tr>
+              </tr>
+            <tr bgcolor="#352641"><td><b>🕸️ Nombre completo:</b></font></td><td><b>ADRIAN ISMAEL PRADO NARVAEZ</b></font></td></tr>
             <tr bgcolor="#352641"><td><b>🎓 Carrera:</b></font></td><td>Ingeniería de Sistemas (Universidad salesiana de bolivia)</font></td></tr>
-            <tr bgcolor="#352641"><td><b>🆔 RU:</b></font></td><td>63001</font></td></tr>
-            <tr bgcolor="#352641"><td><b>🎂 Edad:</b></font></td><td>21 años (como Miles Morales cuando empezó)</font></td></tr>
-            <tr bgcolor="#352641"><td><b>⚥ Género:</b></font></td><td>Masculino (Trebol)</font></td></tr>
-            <tr bgcolor="#352641"><td><b>🏙️ Ciudad:</b></font></td><td>La Paz, Bolivia (Mi propio Spider-verse)</font></td></tr>
-         </table>
+            <tr bgcolor="#352641"><td><b>🆔 RU:</b></font></font></td><td>63001</font></tr>
+            <tr bgcolor="#352641"><td><b>🎂 Edad:</b></font></font></td><td>21 años (como Miles Morales cuando empezó)</font></tr>
+            <tr bgcolor="#352641"><td><b>⚥ Género:</b></font></td><td>Masculino (Trebol)</font></tr>
+            <tr bgcolor="#352641"><td><b>🏙️ Ciudad:</b></font></font></td><td>La Paz, Bolivia (Mi propio Spider-verse)</font></tr>
+          </table>
         <br>
+        <!-- Botón adicional para subir desde esta sección -->
+        <a href="#inicio"><font size="2" color="#FFB347">[🔼 Subir al inicio]</font></a> &nbsp;&nbsp; <a href="#fin"><font size="2" color="#FFB347">[🔽 Ir al final]</font></a>
+        <br><br>
 
-        <!-- COMIDA FAVORITA - TABLA CON TEMATICA SPIDEY -->
+        <!-- ================= COMIDA FAVORITA (anclaje) ================= -->
+        <a name="comida"></a>
         <h2><font face="Impact" color="#FFC857">🍕 SPIDER-COMIDA FAVORITA 🕷️🍔</font></h2>
-        <table border="2" width="500" bgcolor="#291D3A" bordercolor="#FFA500" cellpadding="8" cellspacing="1">
+        <table border="2" width="540" bgcolor="#291D3A" bordercolor="#FFA500" cellpadding="8" cellspacing="1">
             <tr bgcolor="#4A2A5C">
                 <th width="45%"><font face="Arial" color="#FFD966"><b>Tipo</b></font></th>
                 <th><font face="Arial" color="#FFD966"><b>Detalles Deliciosos</b></font></th>
-             </tr>
-            <tr bgcolor="#352641"><td><b>🍕 Plato principal:</b></font></td><td>Pizza de pepperoni + queso extra (como la tía May la hacía)</font></td></tr>
-            <tr bgcolor="#352641"><td><b>🍝 Plato secundario:</b></font></td><td>Lasaña casera al horno (receta familiar)</font></td></tr>
-            <tr bgcolor="#352641"><td><b>🍰 Postre favorito:</b></font></td><td>Brownie con helado de vainilla (poder arácnido dulce)</font></td></tr>
-            <tr bgcolor="#352641"><td><b>🥤 Bebida favorita:</b></font></td><td>Limonada con hierbabuena (refrescante como el traje)</font></td></tr>
-            <tr bgcolor="#352641"><td><b>🌮 Comida típica:</b></font></td><td>Salteñas bolivianas bien jugosas (punto caliente de sabor)</font></td></tr>
-            <tr bgcolor="#352641"><td><b>📅 Día especial:</b></font></td><td>Los domingos en familia, parrillada estilo tío Ben</font></td></tr>
-         </table>
+              </tr>
+            <tr bgcolor="#352641"><td><b>🍕 Plato principal:</b></font></td><td>Pizza de pepperoni + queso extra (como la tía May la hacía)</font></tr>
+            <tr bgcolor="#352641"><td><b>🍝 Plato secundario:</b></font></td><td>Lasaña casera al horno (receta familiar)</font></tr>
+            <tr bgcolor="#352641"><td><b>🍰 Postre favorito:</b></font></td><td>Brownie con helado de vainilla (poder arácnido dulce)</font></tr>
+            <tr bgcolor="#352641"><td><b>🥤 Bebida favorita:</b></font></td><td>Limonada con hierbabuena (refrescante como el traje)</font></tr>
+            <tr bgcolor="#352641"><td><b>🌮 Comida típica:</b></font></td><td>Salteñas bolivianas bien jugosas (punto caliente de sabor)</font></tr>
+            <tr bgcolor="#352641"><td><b>📅 Día especial:</b></font></td><td>Los domingos en familia, parrillada estilo tío Ben</font></tr>
+          </table>
         <br>
+        <a href="#inicio"><font size="2" color="#FFB347">[🔼 Subir al inicio]</font></a> &nbsp;&nbsp; <a href="#fin"><font size="2" color="#FFB347">[🔽 Ir al final]</font></a>
+        <br><br>
 
-        <!-- DATOS GENERALES & INTERESES con viñetas personalizadas + íconos spidey -->
+        <!-- ================= INTERESES Y HABILIDADES (anclaje) ================= -->
+        <a name="intereses"></a>
         <h2><font face="Impact" color="#FFC857">🌟 SPIDER-INTERESES & HABILIDADES 🕸️</font></h2>
-        <table width="500" bgcolor="#251B36" border="2" bordercolor="#DAA520" cellpadding="14">
+        <table width="560" bgcolor="#251B36" border="2" bordercolor="#DAA520" cellpadding="14">
             <tr>
                 <td bgcolor="#2F1F42">
                     <font face="Segoe UI, Arial" size="3" color="#EDE7F6">
@@ -107,21 +144,24 @@
                         <img src="https://img.icons8.com/emoji/24/000000/japan.png" width="20">  <b>⚡ Anime & Cómics</b> – Fan de My Hero Academia y los cómics de Spidey.<br><br>
                         <img src="https://img.icons8.com/emoji/24/000000/dumbbell.png" width="20">  <b>💪 Actividad Física</b> – Escalada y parkour estilo araña.
                     </font>
-                 </td>
-             </tr>
-         </table>
+                  </td>
+              </tr>
+          </table>
         <br>
+        <a href="#inicio"><font size="2" color="#FFB347">[🔼 Subir al inicio]</font></a> &nbsp;&nbsp; <a href="#fin"><font size="2" color="#FFB347">[🔽 Ir al final]</font></a>
+        <br><br>
 
-        <!-- CANCION FAVORITA - VIDEO Y LETRA / ESTILO SPIDER-VERSE -->
+        <!-- ================= CANCIÓN FAVORITA (anclaje) ================= -->
+        <a name="cancion"></a>
         <h2><font face="Impact" color="#FFC857">🎵 SPIDER-CANCIÓN FAVORITA 🎧🕷️</font></h2>
-        <table width="620" bgcolor="#241F32" border="3" bordercolor="#E34234" cellpadding="12">
+        <table width="640" bgcolor="#241F32" border="3" bordercolor="#E34234" cellpadding="12">
             <tr>
                 <td width="300" align="center" bgcolor="#2C1E3E">
                     <iframe width="270" height="170" src="https://www.youtube.com/embed/Qxkd0Q21BpM" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen></iframe>
-                    <br><font size="2" color="#FFB347"><b>▶ Bad Bunny - Netflix (Con Power Arácnido)</b></font>
-                </td>
+                    <br><font size="2" color="#FFB347"><b>▶ Bad Bunny - Netflix (Con Poder Arácnido)</b></font>
+                 </td>
                 <td width="320" valign="top" bgcolor="#281E38">
                     <font face="Verdana" size="2" color="#F5E6D3">
                         <b>🎤 Letra (fragmento épico):</b><br>
@@ -132,51 +172,57 @@
                         <b>⭐ Género:</b> Trap Latino / Reguetón (Spider-flow)<br>
                         <b>💿 Álbum:</b> YHLQMDLG (con onda de otro universo)
                     </font>
-                </td>
-             </tr>
+                  </td>
+               </tr>
          </table>
         <br>
+        <a href="#inicio"><font size="2" color="#FFB347">[🔼 Subir al inicio]</font></a> &nbsp;&nbsp; <a href="#fin"><font size="2" color="#FFB347">[🔽 Ir al final]</font></a>
+        <br><br>
 
-        <!-- JUEGO FAVORITO - FORTNITE (Spider-man ya estuvo en el juego) + video relacionado -->
+        <!-- ================= JUEGO FAVORITO (anclaje) ================= -->
+        <a name="juego"></a>
         <h2><font face="Impact" color="#FFC857">🎮 SPIDER-JUEGO FAVORITO 🕹️🕸️</font></h2>
-        <table width="620" bgcolor="#221B35" border="2" bordercolor="#C41E3A" cellpadding="12">
+        <table width="660" bgcolor="#221B35" border="2" bordercolor="#C41E3A" cellpadding="12">
             <tr>
-                <td width="270" align="center" bgcolor="#2A1B40">
+                <td width="280" align="center" bgcolor="#2A1B40">
                     <font size="5" color="#FFAA33"><b>🔥 FORTNITE (CAPÍTULO SPIDER-MAN) 🔥</b></font><br>
                     <img src="https://cdn2.unrealengine.com/fortnite-battle-royale-galactic-battle-header-1900x600-48fa493a66dc.jpg?resize=1&w=1920" 
-                         width="200" height="180" alt="Fortnite Spiderman Skin" border="3" bordercolor="#E6242E" style="border-radius:10px;">
+                         width="200" height="160" alt="Fortnite Spiderman Skin" border="3" bordercolor="#E6242E" style="border-radius:10px;">
                     <p><font size="2" color="#F5DEB3"><i>🕷️ PARTIDAS JUGADAS: 1500 | VICTORIAS ROYALES: 500 | DERROTAS: 1000 (siempre como Spidey)</i></font></p>
-                </td>
-                <td width="320" valign="top" bgcolor="#291E3A">
+                  </td>
+                <td width="340" valign="top" bgcolor="#291E3A">
                     <font face="Arial" size="3" color="#FFDFBF">
                         <b>🎯 ¿Por qué me encanta?</b><br>
                         ES UN JUEGO BATTLE ROYALE CON CONSTRUCCIONES, DISPAROS Y ¡EL TRAJE DE SPIDER-MAN DISPONIBLE! SALTAR Y LANZAR TELARAÑAS. <br><br>
                         <b>🕹️ Plataforma:</b> PlayStation, Xbox, PC y Nintendo Switch<br>
                         <b>🏆 Logro:</b> COMPLETÉ EL 100% EN PLAYSTATION 5 CON PIEL DE SPIDER-MAN MILES MORALES.
                     </font>
-                </td>
-             </tr>
-      <tr>
-    <td colspan="2" align="center" bgcolor="#1E1530">
-        <iframe width="500" height="240" src="https://www.youtube.com/embed/WrldO0j12hE" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-        <br><font size="1" color="#FFA07A"><b>▶ Fortnite 4K 120FPS HDR Gameplay | Skin Anodite (Ben 10) | Acción arácnida</b></font>
-    </td>
-</tr>
+                  </td>
+               </tr>
+         </table>
+         <br>
+         <table width="660" bgcolor="#1E1530" border="1" bordercolor="#DAA520">
+            <tr><td align="center" bgcolor="#22193A">
+                <iframe width="500" height="240" src="https://www.youtube.com/embed/WrldO0j12hE" frameborder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                 allowfullscreen></iframe>
+                <br><font size="1" color="#FFA07A"><b>▶ Fortnite 4K 120FPS HDR Gameplay | Skin Anodite (Ben 10) | Acción arácnida</b></font>
+            </td></tr>
          </table>
         <br>
-        
-        <!-- MISIÓN Y VISIÓN + IMAGEN DE SPIDER-INGENIERO -->
+        <a href="#inicio"><font size="2" color="#FFB347">[🔼 Subir al inicio]</font></a> &nbsp;&nbsp; <a href="#fin"><font size="2" color="#FFB347">[🔽 Ir al final]</font></a>
+        <br><br>
+
+        <!-- ================= MISIÓN Y VISIÓN ================= -->
         <h2><font face="Impact" color="#FFC857">🎯 MISIÓN ARÁCNIDA Y VISIÓN 🕷️✨</font></h2>
-        <table width="580" bgcolor="#221833" border="3" bordercolor="#DAA520" cellpadding="15">
+        <table width="620" bgcolor="#221833" border="3" bordercolor="#DAA520" cellpadding="15">
             <tr>
-                <td width="240" align="center" bgcolor="#352645">
+                <td width="260" align="center" bgcolor="#352645">
                     <img src="https://i.pinimg.com/736x/04/5d/46/045d46006b6f0f0132a84695bcd0571c.jpg" 
                          width="210" height="180" alt="Spider-Man Ingeniero" style="border:3px solid #E6242E;">
                     <br><font size="1" color="#F5DEB3">"El héroe que lleva unos tenis y teclea código"</font>
-                </td>
-                <td width="340" valign="top" bgcolor="#281F3A">
+                  </td>
+                <td width="360" valign="top" bgcolor="#281F3A">
                     <font face="Segoe UI" size="3" color="#FFE1C6">
                         <b>✨ MISIÓN (SPIDER-ETHOS):</b><br>
                         Formarme como ingeniero de sistemas con sólidos conocimientos tecnológicos, 
@@ -186,14 +232,14 @@
                         Ser reconocido como un profesional íntegro, innovador y referente en el área 
                         de tecnología, contribuyendo a proyectos de alto impacto regional y codeando como el verdadero Spider-Man de la programación.
                     </font>
-                </td>
-             </tr>
+                  </td>
+               </tr>
          </table>
         <br>
 
-        <!-- TAREAS DESTACADAS / PROYECTOS SPIDER-STYLE -->
+        <!-- ================= PROYECTOS & TAREAS ================= -->
         <h2><font face="Impact" color="#FFC857">✅ PROYECTOS & TAREAS (NIVEL ARÁCNIDO)</font></h2>
-        <table width="540" bgcolor="#271E3A" border="2" bordercolor="#E64B2E" cellpadding="14">
+        <table width="580" bgcolor="#271E3A" border="2" bordercolor="#E64B2E" cellpadding="14">
             <tr>
                 <td bgcolor="#1F1535">
                     <ul type="square" style="color:#FAE7C8;">
@@ -202,14 +248,16 @@
                         <li><font size="3" color="#FCE6B4"><b>📚 Sistema de préstamos de laboratorio</b> – Control de equipos con diseño ágil.</font></li>
                         <li><font size="3" color="#FCE6B4"><b>🎮 Prototipo de videojuego "Spider-Coder"</b> (en desarrollo – próximo lanzamiento).</font></li>
                     </ul>
-                </td>
-             </tr>
+                  </td>
+               </tr>
          </table>
         <br>
+        <a href="#inicio"><font size="2" color="#FFB347">[🔼 Subir al inicio]</font></a> &nbsp;&nbsp; <a href="#fin"><font size="2" color="#FFB347">[🔽 Ir al final]</font></a>
+        <br><br>
 
-        <!-- ENLACES SOCIALES Y EXTRAS - CON TOQUE SPIDER-VERSE -->
+        <!-- ================= ENLACES SOCIALES ================= -->
         <h2><font face="Impact" color="#FFC857">🔗 ENLACES AL SPIDER-VERSE Y REDES</font></h2>
-        <table width="500" bgcolor="#1F1736" border="1" bordercolor="#FFA500" cellpadding="12">
+        <table width="540" bgcolor="#1F1736" border="1" bordercolor="#FFA500" cellpadding="12">
             <tr>
                 <td align="center" bgcolor="#3B2354" colspan="2">
                     <font size="3" color="#FED976">
@@ -217,29 +265,47 @@
                         📧 <b>Correo Arácnido:</b> adrian.spiderprado@ejemplo.com<br>
                         🐦 <b>Twitter/X:</b> @SpiderPrado_Dev (lanzando telarañas digitales)
                     </font>
-                </td>
-             </tr>
+                  </td>
+               </tr>
          </table>
         <br>
 
-        <!-- PIE DE PÁGINA CON ESTILO SPIDER-MAN Y BOTÓN EXTRA DE "SUBIR" (icono ya está fijo) -->
-        <table width="580" bgcolor="#B22234" cellpadding="8" border="1">
-            <tr>
-                <td align="center" bgcolor="#8B1A1A">
-                    <font face="Courier New" size="3" color="#FFE484"><b>🕸️ © 2026 ING. ADRIAN PRADO - EL SPIDER-INGENIERO 🕷️ | 🌟 La Paz - (Spider-Bolivia) 🌟</b></font>
-                    <br><font size="2" color="#FFD58C">"Un gran código conlleva una gran responsabilidad"</font>
-                 </td>
-             </tr>
+        <!-- ================= PIE DE PÁGINA ================= -->
+        <table width="620" bgcolor="#B22234" cellpadding="8" border="1">
+            <tr><td align="center" bgcolor="#8B1A1A">
+                <font face="Courier New" size="3" color="#FFE484"><b>🕸️ © 2026 ING. ADRIAN PRADO - EL SPIDER-INGENIERO 🕷️ | 🌟 La Paz - (Spider-Bolivia) 🌟</b></font>
+                <br><font size="2" color="#FFD58C">"Un gran código conlleva una gran responsabilidad"</font>
+            </td></tr>
          </table>
         <br>
         <font size="1" color="#D8BFD8">✨ Portafolio mejorado con esencia Spider-Man (Sin CSS/JS - solo HTML puro & clásico) ✨</font>
         <br><br>
 
-        <!-- ANCLAJE DE REFUERZO visual para regreso arriba (enlace extra) -->
-        <table bgcolor="#2C1A43" cellpadding="3" border="0">
-            <tr><td><a href="#inicio"><font face="Arial" size="2" color="#FFB347"><b>🔼 HAZ CLIC AQUÍ PARA SUBIR RÁPIDO (O usa el botón flotante) 🔼</b></font></a></td></tr>
-         </table>
+        <!-- BOTONES ADICIONALES SUBIR / BAJAR REFORZADOS -->
+        <table bgcolor="#2C1A43" cellpadding="6" border="0" width="300">
+            <tr>
+                <td align="center"><a href="#inicio"><font face="Arial" size="2" color="#FFB347"><b>🔼 SUBIR RÁPIDO 🔼</b></font></a></td>
+                <td align="center"><a href="#fin"><font face="Arial" size="2" color="#FFB347"><b>🔽 BAJAR RÁPIDO 🔽</b></font></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#datos"><font size="2" color="#FFAA66">📌 Datos</font></a></td>
+                <td align="center"><a href="#comida"><font size="2" color="#FFAA66">🍕 Comida</font></a></td>
+            </tr>
+            <tr>
+                <td align="center"><a href="#intereses"><font size="2" color="#FFAA66">🕷️ Intereses</font></a></td>
+                <td align="center"><a href="#cancion"><font size="2" color="#FFAA66">🎵 Canción</font></a></td>
+            </tr>
+             <tr>
+                <td align="center"><a href="#juego"><font size="2" color="#FFAA66">🎮 Juego</font></a></td>
+                <td align="center"><a href="#inicio"><font size="2" color="#FFAA66">🏠 Inicio</font></a></td>
+            </tr>
+        </table>
         <br>
+
+        <!-- MARCA FINAL ANCLAJE "fin" -->
+        <hr width="400" color="#DAA520" size="2">
+        <font face="Courier" size="2" color="#E6B422"><b>🕷️ FIN DEL SPIDER-PORTAFOLIO - SIGUE EXPLORANDO EL MULTIVERSO 🕸️</b></font>
+        <br><br>
     </center>
 </body>
 </html>
